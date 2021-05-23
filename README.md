@@ -78,3 +78,6 @@ for index, element in enumerate(xxx):
 
 
 
+## 致谢
+
+感谢 @antx-code 同学的建议，[Add find mode](https://github.com/kingname/JsonPathFinder/issues/1)，增加按 Value 搜索的功能。
