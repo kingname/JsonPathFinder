@@ -38,7 +38,9 @@ class JsonPathFinder:
 
 
 if __name__ == '__main__':
-    with open('sample.json', ) as f:
+    import os
+    jsonfile = os.path.join(os.path.dirname(__file__), 'sample.json')
+    with open(jsonfile, ) as f:
         json_data = f.read()
 
     print('开始测试按 Key 搜索...')
